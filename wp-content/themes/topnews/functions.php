@@ -1,5 +1,5 @@
 <?php
-//Edit on Local
+
 /////////////////////////////////////
 // Theme Setup
 /////////////////////////////////////
@@ -604,8 +604,7 @@ add_image_size( 'post-thumb', 1000, 600, true );
 set_post_thumbnail_size( 660, 400, true );
 add_image_size( 'post-thumb', 660, 400, true );
 }
-//add_image_size( 'medium-thumb', 400, 240, true );
-add_image_size( 'medium-thumb', 500, 1039, true );
+add_image_size( 'medium-thumb', 400, 240, true );
 add_image_size( 'small-thumb', 95, 60, true );
 }
 
@@ -1411,39 +1410,23 @@ function mvp_site_layout() {
 	float: none;
 }
 #home-content-wrapper  {
- width: 600px;
+ width: 50%;
 }
 .home-contain {
 	float: none;
 	width: 100%;
 	top: 50%;
+    left: 50%;
 }
 .story-section {
-    left:50%;
+	left: 51%;
 }
 .story-contain {
-     width:600px;
-	 position:relative;
-	 display:block;
+     width:100%;
 	 height: 1039px;
 }
-.story-contain-img {
-
-	display:block;
-}
-
-.story-contain:hover .story-contain-img img {
-	opacity: 1;
-	}
-.story-contain-text{
-  position:relative;
-}
-.story-contain:hover .story-contain-text {
-	opacity: 1;
-	}
-	
 #sidebar-contain {
-	left:1000px;
+	margin-left: 1150px;
 	right: auto;
 	}
 .side-fixed,
